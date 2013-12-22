@@ -1,0 +1,39 @@
+@media screen and (min-width:768px)
+{
+	body
+	{
+		margin: 0 auto; /*se centra cuando llega a 1200px de expansión*/
+		max-width: 1200px;
+	}
+	#contenido
+	{
+		width: 70%; /*poner sidebar en el momento que se expanda*/
+	}
+	#bienvenida
+	{
+		display: block;
+		border-bottom: 1px solid #CCC;
+		float: right;
+		width: 25%;
+	}
+	#bienvenida #mensaje_registro, 
+	#bienvenida #registro
+	{
+		text-align: center;
+	}
+	#bienvenida h2
+	{
+		color: #434343;
+	}
+	#bienvenida #mensaje_registro
+	{
+		font-size: 0.8em;
+	}
+	#bienvenida #registro{
+		background: #22BCE0;
+		display: block;
+		color: white;
+		font-size: 1.2em;
+		padding: 0.5em 0;
+	}
+}
